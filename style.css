@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+
+.container-lg {
+    background-color: transparent;
+      border: 2px solid rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(20px);
+      color: #000000;
+      border-radius: 10px;
+      padding: 30px 40px;
+}
+
+
+.form-control, .form-select {
+    background: transparent;
+      border: none;
+      outline: none;
+      border: 2px solid rgba(0, 0, 0, .3);
+      border-radius: 50px;
+      color: #000000;
+    
+  }
+textarea{
+    height: 15vh;
+    
+}
+
+textarea::placeholder{
+    padding-left: 1%;
+    
+}
+  
+  .form-control::placeholder{
+    color: #000000;
+  }
+  .form-control option{
+    color: black;
+  }
+
