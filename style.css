@@ -4,6 +4,7 @@
             background : url("bg.jpg") no-repeat;
             background-size:cover;
             background-position: center;
+            background-attachment: fixed;
         }
 .container-lg {
     background-color: transparent;
